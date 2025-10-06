@@ -1,0 +1,29 @@
+# فایل‌های باینری
+*.exe
+*.out
+*.app
+
+# فایل‌های object
+*.o
+*.obj
+
+# پوشه‌های کامپایل
+/build/
+/bin/
+/Debug/
+/Release/
+
+# فایل‌های کش کامپایلرها
+*.gch
+*.pch
+*.d
+
+# فایل‌های IDE مانند VSCode یا CLion
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# سایر فایل‌های موقتی
+*.log
+*.tmp
