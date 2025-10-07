@@ -1,29 +1,47 @@
-# فایل‌های باینری
-*.exe
-*.out
-*.app
+# پوشه‌های CLion و JetBrains
+.idea/
+*.iml
 
-# فایل‌های object
+# فایل‌های CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# باینری‌ها و فایل‌های اجرایی
 *.o
 *.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.lib
 
-# پوشه‌های کامپایل
-/build/
-/bin/
-/Debug/
-/Release/
-
-# فایل‌های کش کامپایلرها
-*.gch
-*.pch
-*.d
-
-# فایل‌های IDE مانند VSCode یا CLion
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# سایر فایل‌های موقتی
+# لاگ‌ها
 *.log
+
+# فایل‌های موقتی
+*~
+*.swp
 *.tmp
+*.bak
+
+# فایل‌های تست
+Testing/
+test_detail.xml
+
+# خروجی‌های Google Test
+gtest_output.xml
+
+# فایل‌های پوشش کد
+*.gcno
+*.gcda
+*.gcov
+
+# پوشه‌های مخفی سیستم‌عامل (در صورت استفاده از Git در چند سیستم مختلف)
+.DS_Store
+Thumbs.db
