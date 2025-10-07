@@ -4,6 +4,7 @@
 
 # فایل‌های CMake
 CMakeCache.txt
+CMakeLists.txt
 CMakeFiles/
 cmake-build-*/
 Makefile
